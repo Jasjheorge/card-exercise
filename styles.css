@@ -1,14 +1,23 @@
 body{
-    display: flex
+    display: flex;
+    justify-content: space-around;
 }
-.card-light{
-    background: #eee;
+/* BLOCK */
+.card{
     margin: 2em;
-    max-width:300px;
+    max-width: 300px;
     padding: 2em;
-    box-shadow: 0 20px 30px -20px rgba(0,0,0.4);
+    box-shadow: 0 20px 30px -10px rgba(0,0,0.4);
+}
+/* MODIFIERS */
+.card--light{
+    background: #eeec86;
 }
 
 img{
     width: 100%;
+}
+
+.card--dark{
+    background: #332f2f;
 }

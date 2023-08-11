@@ -1,0 +1,14 @@
+{
+  "name": "card-exercise",
+  "version": "1.0.0",
+  "description": "Bootcamp exercise for SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
