@@ -1,0 +1,30 @@
+$color-primary-light:#eeec86;
+$color-primary-dark:#332f2f;
+
+
+body{
+    display: flex;
+    justify-content: space-around;
+}
+/* BLOCK */
+.card{
+    margin: 2em;
+    max-width: 300px;
+    padding: 2em;
+    box-shadow: #000000;
+    &__paragraph{
+        color: red;
+    }
+}
+/* MODIFIERS */
+.card--light{
+    background: rgba($color-primary-light, 0.8);
+}
+
+img{
+    width: 100%;
+}
+
+.card--dark{
+    background: rgba($color-primary-dark, 0.8);
+}

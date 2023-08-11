@@ -4,8 +4,8 @@
   "description": "Bootcamp exercise for SASS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "compile:sass": "node-sass sass/main.scss css/styles.css"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
